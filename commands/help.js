@@ -17,7 +17,7 @@ module.exports = {
     if(!helpArgs[0]) {
         var embed = new Discord.MessageEmbed()
             .setAuthor(`Here is the Avaible Commands to use:`)
-            .setDescription('```ban | purge | clearwarnings | unmute | db | help | mute | kick | warn | warnings | userinfo | meme | say | poll | snipe ```')
+            .setDescription('```ban | purge | clearwarnings | unmute | db | help | mute | kick | warn | warnings | userinfo | meme | say | poll | snipe | trigger```')
             .addFields({ name: 'Prefix', value: '```!```', inline: true})
             .setColor('#00FFF3')
             
