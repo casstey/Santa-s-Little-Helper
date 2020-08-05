@@ -9,6 +9,7 @@
   "author": "casstey",
   "license": "ISC",
   "dependencies": {
+    "canvacord": "^3.0.9",
     "cheerio": "^1.0.0-rc.3",
     "config.json": "0.0.4",
     "discord.js": "^12.2.0",
